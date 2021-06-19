@@ -6,5 +6,8 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "denoland.vscode-deno"
   },
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "deno.suggest.imports.hosts": {
+    "https://deno.land": false
+  }
 }

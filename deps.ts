@@ -1,4 +1,4 @@
-export { Server } from "https://deno.land/std@0.95.0/http/server.ts";
+export { Server } from "https://deno.land/std@0.99.0/http/server.ts";
 export { superdeno, Test } from "https://deno.land/x/superdeno@4.2.1/mod.ts";
 export type {
   IRequest,

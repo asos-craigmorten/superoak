@@ -37,6 +37,7 @@ precommit:
 
 test:
 	@deno test --allow-net --allow-read --allow-env
+	@deno test --allow-net --allow-read --allow-env --unstable
 
 typedoc:
 	@rm -rf docs
